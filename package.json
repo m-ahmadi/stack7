@@ -1,0 +1,17 @@
+{
+  "name": "MyApp",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node build.js",
+    "dev": "nodemon -x node --inspect-brk build.js"
+  },
+  "devDependencies": {
+    "chokidar": "latest",
+    "indent.js": "latest",
+    "sass": "latest",
+    "rtlcss": "latest",
+    "rollup": "latest",
+    "terser": "latest",
+    "livereload": "latest"
+  }
+}
